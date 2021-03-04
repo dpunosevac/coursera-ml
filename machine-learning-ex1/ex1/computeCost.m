@@ -12,9 +12,8 @@ J = 0;
 % ====================== YOUR CODE HERE ======================
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
-
-
-
+h = X * theta; % vector (m x 1) of predictions
+J = sum((h - y) .^ 2) / (2 * m); % cost function using vectors
 
 
 % =========================================================================

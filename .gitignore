@@ -237,4 +237,7 @@ dmypy.json
 pyvenv.cfg
 pip-selfcheck.json
 
+# Coursera specific
+token.mat
+
 # End of https://www.toptal.com/developers/gitignore/api/matlab,octave,python,virtualenv,macos
